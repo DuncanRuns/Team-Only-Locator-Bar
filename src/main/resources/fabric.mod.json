@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "team-only-locator-bar",
+	"version": "${version}",
+	"name": "Team Only Locator Bar",
+	"description": "Disables the locator bar for players not on the same team.",
+	"authors": [
+		"DuncanRuns"
+	],
+	"license": "MIT",
+	"icon": "assets/team-only-locator-bar/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.duncanruns.teamonlylocatorbar.TeamOnlyLocatorBar"
+		]
+	},
+	"mixins": [
+		"team-only-locator-bar.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

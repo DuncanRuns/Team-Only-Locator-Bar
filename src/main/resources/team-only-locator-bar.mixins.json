@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "me.duncanruns.teamonlylocatorbar.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ServerWaypointMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
