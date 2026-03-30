@@ -3,7 +3,7 @@
 	"package": "me.duncanruns.teamonlylocatorbar.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ServerWaypointMixin"
+		"WaypointTransmitterMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
